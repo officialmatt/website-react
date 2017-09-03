@@ -1,0 +1,60 @@
+.cardsContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  background-color: #4593e3;
+}
+
+.cardsContainerProjects {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+
+.cards {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cards > *:not(:first-child) {
+  margin-left: 15%;
+}
+
+.card {
+  width: 20rem;
+  color: white;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-text {
+  font-size:20px;
+  font-weight: lighter;
+}
+
+.card-text a {
+  color: white;
+}
+
+.card-text a:hover{
+  color: #757272;
+}
+
+
+@fontface {
+  font-family: 'Raleway', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Raleway');
+}
