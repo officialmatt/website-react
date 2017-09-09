@@ -53,6 +53,19 @@
   color: #757272;
 }
 
+@media screen and (max-width: 480px) {
+  .cards {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cards > * {
+    margin-left: 15%;
+  }
+
+}
 
 @fontface {
   font-family: 'Raleway', sans-serif;
