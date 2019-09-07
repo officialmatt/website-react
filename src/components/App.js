@@ -16,10 +16,10 @@ class App extends Component {
             <Icons />
           </div>
         </div>
-      {/* <div id="Activities" >
+    { /* <div id="Activities" >
           <Activities />
-        </div>
-        <div id="Projects" >
+      </div>}
+        { <div id="Projects" >
           <Projects />
         </div> */}
         <Footer />

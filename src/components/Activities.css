@@ -32,7 +32,9 @@
   width: 20rem;
   color: white;
   padding: 5px;
+  background-color: #4593e3;
   font-family: 'Raleway', sans-serif;
+  border: none;
 }
 
 .card-title {

@@ -10,9 +10,8 @@ class ActivityCards extends Component {
   render() {
     return (
       <div className = "cards">
-        <CardsTemplate image={Techsoc} title="UCL TechSoc" icon="fa-github" description="Vice President 2017-2018" />
-        <CardsTemplate image={Rightmove} title="Rightmove" icon="fa-github" description="Software Development Intern 2017" />
-        <CardsTemplate image={Microsoft} title="Microsoft" icon="fa-github" description="Microsoft Student Partner 2016-2017" />
+        <CardsTemplate image={Techsoc} title="A Natural Language Understanding System For Extracting And Understanding Textual Information From The Web" icon="fa-github" description="https://drive.google.com/open?id=1RmbHASRKVxmqBFmg2ia8twMjclSBcOE4" />
+        <CardsTemplate image={Rightmove} title="A Neural Network Approach to Automated Fact Checking" icon="fa-github" description="Software Development Intern 2017" />
       </div>
     );
   }
